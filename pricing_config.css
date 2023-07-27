@@ -1,0 +1,164 @@
+#container {
+    max-width: 1280px;
+    margin: auto;
+    font-family: 'Comic Neue', cursive;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headermaincomponents {
+    width: 33.33%;
+    display: flex;
+    padding: 15px;
+}
+
+#headercenter {
+    justify-content: center;
+}
+
+#headerrightside {
+    justify-content: right;
+}
+
+.headerinner {
+    padding: 10px;
+}
+
+.headerinner a {
+    text-decoration: none;
+}
+
+.headerinner a:hover {
+    text-decoration: underline;
+}
+
+#title {
+    text-align: center;
+}
+
+#maincontent {
+    display: flex;
+}
+
+#image {
+    width: 50%;
+}
+
+#image img {
+    width: 100%;
+}
+
+#pricelist {
+    width: 50%;
+    padding: 0px 20px;
+}
+
+.peroption {
+    height: 33.33%;
+}
+
+.peroptiontextheader {
+    font-size: 10px;
+}
+
+.peroptiontext {
+    padding: 0px 25px;
+    width: 100%;
+}
+
+.peroptiontextheader {
+    font-size: 25px;
+    border-bottom: 3px solid black;
+}
+
+.peroptiontextnonheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.peroption {
+    display: flex;
+    align-items: flex-start;
+}
+
+#random {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#footer {
+    justify-content: center;
+}
+
+#socialmenu {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.sociallinks {
+    padding: 15px;
+}
+
+.sociallinks .fadeineffect {
+    position: relative;
+    display: inline-block;
+}
+
+.sociallinks .hoverimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.sociallinks:hover .hoverimage {
+    opacity: 1;
+}
+
+.sociallinks:hover img:not(.hoverimage) {
+    opacity: 0.5;
+}
+
+#copyright {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 792px) {
+    #header {
+        display: flex;
+    }
+
+    .headermaincomponents {
+        width: 33.33%;
+        display: block;
+        padding: 15px;
+        justify-content: center;
+    }
+
+    .headerinner {
+        text-align: center;
+    }
+
+    #maincontent {
+        display: block;
+    }
+
+    #image {
+        width: 100%;
+    }
+
+    #pricelist {
+        width: 100%;
+        padding: 45px 0px;
+    }
+}

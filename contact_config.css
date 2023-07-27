@@ -1,0 +1,147 @@
+#container {
+    max-width: 1280px;
+    margin: auto;
+    font-family: 'Comic Neue', cursive;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headermaincomponents {
+    width: 33.33%;
+    display: flex;
+    padding: 15px;
+}
+
+#headercenter {
+    justify-content: center;
+}
+
+#headerrightside {
+    justify-content: right;
+}
+
+.headerinner {
+    padding: 10px;
+}
+
+.headerinner a {
+    text-decoration: none;
+}
+
+.headerinner a:hover {
+    text-decoration: underline;
+}
+
+#homepagetext {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+#title {
+    text-align: center;
+}
+
+#maincontent {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#if {
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+.areadescription {
+    font-size: 25px;
+    padding: 5px;
+}
+
+#optionboxwithdescription {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px 5px 5px;
+}
+
+.boxdescription {
+    width: 45%;
+    padding: 0px 5px 5px 5px;
+}
+
+.outsideboxdescription {
+    padding: 5px;
+}
+
+.textarea {
+    padding: 5px;
+}
+
+.textbox {
+    width: 100%;
+    resize: none;
+    font-size: 20px;
+}
+
+#footer {
+    justify-content: center;
+}
+
+#socialmenu {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.sociallinks {
+    padding: 15px;
+}
+
+.sociallinks .fadeineffect {
+    position: relative;
+    display: inline-block;
+}
+
+.sociallinks .hoverimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.sociallinks:hover .hoverimage {
+    opacity: 1;
+}
+
+.sociallinks:hover img:not(.hoverimage) {
+    opacity: 0.5;
+}
+
+#copyright {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 792px) {
+    #header {
+        display: flex;
+    }
+
+    .headermaincomponents {
+        width: 33.33%;
+        display: block;
+        padding: 15px;
+        justify-content: center;
+    }
+
+    .headerinner {
+        text-align: center;
+    }
+}
