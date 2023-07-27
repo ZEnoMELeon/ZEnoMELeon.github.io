@@ -54,8 +54,8 @@
 }
 
 #if {
-    font-size: 25px;
-    padding: 0px 5px
+    font-size: 23px;
+    padding: 0px 5px 15px 5px;
 }
 
 .areadescription {
