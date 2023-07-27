@@ -30,6 +30,7 @@
 
 .headerinner a {
     text-decoration: none;
+    color: black;
 }
 
 .headerinner a:hover {
@@ -42,6 +43,25 @@
     text-align: left;
     font-size: 25px;
     padding-top: 25px;
+}
+
+
+#direct {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    font-size: 25px;
+}
+
+#direct a {
+    text-decoration: underline;
+    color: black;
+
+}
+
+#direct a:hover {
+    text-decoration: underline;
+    color: #0437F2;
 }
 
 #footer {

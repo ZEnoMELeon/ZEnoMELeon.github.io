@@ -30,6 +30,7 @@
 
 .headerinner a {
     text-decoration: none;
+    color: black;
 }
 
 .headerinner a:hover {
@@ -153,6 +154,25 @@
         display: block;
         padding: 15px;
         justify-content: center;
+    }
+
+    #optionboxwithdescription {
+        display: block;
+    }
+
+    #if {
+        font-size: 20px;
+        padding: 0px 5px 15px 5px;
+    }
+
+    .areadescription {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .boxdescription {
+        width: auto;
+        padding: 0px 5px 5px 5px;
     }
 
     .headerinner {

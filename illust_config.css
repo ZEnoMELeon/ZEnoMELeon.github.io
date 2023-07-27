@@ -30,6 +30,7 @@
 
 .headerinner a {
     text-decoration: none;
+    color: black;
 }
 
 .headerinner a:hover {
